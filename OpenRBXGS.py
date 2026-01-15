@@ -3,7 +3,11 @@ import os
 import sys
 import time
 
-exe_path = r"C:\Users\nibas\Downloads\GCC\GCCService\GCCService\RBXGSConhost.exe"
+
+downloads = Path(os.environ["USERPROFILE"]) / "Downloads"
+exe_path = downloads / "RBXGS" / "RBXGSConHost" / "RBXGSConHost.exe"
+
+
 
 def validate_exe(path):
     if not os.path.isfile(path):
@@ -30,3 +34,4 @@ if __name__ == "__main__":
                 proc.kill()
         except Exception:
             pass
+
