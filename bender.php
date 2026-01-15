@@ -1,5 +1,6 @@
 <?php
 // made by Hamoun and mp3
+// uses js database
 session_start();
 
 $ip = "127.0.0.1";
@@ -404,4 +405,5 @@ $_SESSION['tshirt'] = $newData['tshirt'];
 </script>
 
 </body>
+
 </html>
