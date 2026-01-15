@@ -12,7 +12,7 @@ rbxgs render system i made with my friend, mp3. if you use, please give credit, 
  1. Extract RBXGS and place it in your downloads folder(get OpenRBXGS.py if you're lazy, it just opens it for you.)
 
  2. Extract the second zip and place it where the folder is named: [htdocs]
-
+   <i>(this assumes you have xampp)</i>
  # 3. Have fun or something (and please expand if you can.)
 
 
